@@ -51,7 +51,7 @@ class LINEBot
     public function __construct(HTTPClient $httpClient, array $args)
     {
         $this->httpClient = $httpClient;
-        $this->channelSecret = $args['channelSecret'];
+        $this->channelSecret = $args['67c7d51383881647ec219a7eb762ee9e'];
 
         $this->endpointBase = LINEBot::DEFAULT_ENDPOINT_BASE;
         if (array_key_exists('endpointBase', $args) && !empty($args['endpointBase'])) {
